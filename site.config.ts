@@ -8,7 +8,7 @@ export const site = {
   licenseNumber: 'MA00000',                 // TODO: license number (confirm what Florida requires in advertising)
   phone: '(555) 555-5555',                  // TODO
   email: 'hello@example.com',               // TODO
-  url: 'amomentofpeacespa.com',               // TODO: final domain
+  url: 'https://amomentofpeacespa.com',               // TODO: final domain
   bookingUrl: '#contact',                   // TODO: replace with the Square Appointments / booking link
   formEndpoint: '',                         // TODO: Formspree URL like https://formspree.io/f/xxxxxxx (leave empty to hide the form)
   address: {
