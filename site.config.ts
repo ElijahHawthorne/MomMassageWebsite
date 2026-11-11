@@ -2,13 +2,13 @@
 // Nothing else in the project needs to change for basic content updates.
 
 export const site = {
-  name: 'Serenity Massage',                 // TODO: business name
+  name: 'A moment of Peace',                 // TODO: business name
   tagline: 'Therapeutic massage to relax, restore and recover.',
   therapist: 'Lia Hawthorne',               // TODO: mom's name and credentials
   licenseNumber: 'MA00000',                 // TODO: license number (confirm what Florida requires in advertising)
   phone: '(555) 555-5555',                  // TODO
   email: 'hello@example.com',               // TODO
-  url: 'https://example.com',               // TODO: final domain
+  url: 'amomentofpeacespa.com',               // TODO: final domain
   bookingUrl: '#contact',                   // TODO: replace with the Square Appointments / booking link
   formEndpoint: '',                         // TODO: Formspree URL like https://formspree.io/f/xxxxxxx (leave empty to hide the form)
   address: {
@@ -19,9 +19,9 @@ export const site = {
   },
   serviceArea: 'Serving Sanford, Lake Mary and the greater Orlando area.', // TODO
   hours: [
-    { days: 'Monday to Friday', time: '9:00 AM to 6:00 PM' },
-    { days: 'Saturday', time: '10:00 AM to 4:00 PM' },
-    { days: 'Sunday', time: 'Closed' },
+    { days: 'Monday to Friday', time: 'Coming Soon' },
+    { days: 'Saturday', time: 'Coming Soon' },
+    { days: 'Sunday', time: 'Coming Soon' },
   ],
   services: [
     { name: 'Swedish Massage', description: 'Gentle, flowing strokes to ease tension and promote relaxation.', prices: [{ length: '60 min', price: '$80' }, { length: '90 min', price: '$115' }] },
