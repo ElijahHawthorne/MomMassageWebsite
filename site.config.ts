@@ -6,10 +6,10 @@ export const site = {
   tagline: 'Therapeutic massage to relax, restore and recover.',
   therapist: 'Lia Hawthorne',               // TODO: mom's name and credentials
   licenseNumber: 'MA00000',                 // TODO: license number (confirm what Florida requires in advertising)
-  phone: '(555) 555-5555',                  // TODO
+  phone: '(689) 247-0154',                  // TODO
   email: 'hello@example.com',               // TODO
   url: 'https://amomentofpeacespa.com',               // TODO: final domain
-  bookingUrl: '#contact',                   // TODO: replace with the Square Appointments / booking link
+  bookingUrl: 'https://amomentofpeace.noterro.com',                   // TODO: replace with the Square Appointments / booking link
   formEndpoint: '',                         // TODO: Formspree URL like https://formspree.io/f/xxxxxxx (leave empty to hide the form)
   address: {
     street: '123 Main St',                  // TODO (or remove if she works from a home studio or travels)
