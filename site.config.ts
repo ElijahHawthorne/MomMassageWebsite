@@ -2,17 +2,17 @@
 // Nothing else in the project needs to change for basic content updates.
 
 export const site = {
-  name: 'A moment of Peace',                 // TODO: business name
+  name: 'A Moment of Peace',                 // TODO: business name
   tagline: 'Therapeutic massage to relax, restore and recover.',
   therapist: 'Lia Hawthorne',               // TODO: mom's name and credentials
   licenseNumber: 'MA00000',                 // TODO: license number (confirm what Florida requires in advertising)
   phone: '(689) 247-0154',                  // TODO
-  email: 'hello@example.com',               // TODO
+  email: 'amomentofpeacespa@yahoo.com',               // TODO
   url: 'https://amomentofpeacespa.com',               // TODO: final domain
   bookingUrl: 'https://amomentofpeace.noterro.com',                   // TODO: replace with the Square Appointments / booking link
   formEndpoint: '',                         // TODO: Formspree URL like https://formspree.io/f/xxxxxxx (leave empty to hide the form)
   address: {
-    street: '123 Main St',                  // TODO (or remove if she works from a home studio or travels)
+    street: '4720 International Pkwy',                  // TODO (or remove if she works from a home studio or travels)
     city: 'Sanford',
     state: 'FL',
     zip: '32771',

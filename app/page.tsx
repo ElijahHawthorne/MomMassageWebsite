@@ -17,10 +17,18 @@ export default function Home() {
         Skip to content
       </a>
 
-      <header className="border-b border-sand-200 bg-sand-50/90">
-        <nav aria-label="Main" className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
-          <a href="#top" className="font-serif text-xl font-semibold">{site.name}</a>
-          <ul className="hidden gap-6 text-sm sm:flex">
+      <header className="border-b border-gold-200 bg-gold-50/90">
+        <nav aria-label="Main" className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
+          <a href="#top" className="shrink-0 rounded focus:outline-none focus-visible:ring-2 focus-visible:ring-lavender-600">
+            <img
+              src="/images/logo/logo-deep-lavender-no-tagline.svg"
+              alt={site.name}
+              width={238}
+              height={206}
+              className="h-16 w-auto sm:h-24"
+            />
+          </a>
+          <ul className="hidden gap-8 text-base font-medium sm:flex lg:gap-10 lg:text-lg">
             <li><a className="hover:underline" href="#services">Services</a></li>
             <li><a className="hover:underline" href="#about">About</a></li>
             <li><a className="hover:underline" href="#visit">Visit</a></li>
@@ -28,7 +36,7 @@ export default function Home() {
           </ul>
           <a
             href={site.bookingUrl}
-            className="rounded-full bg-sage-700 px-4 py-2 text-sm font-medium text-white hover:bg-sage-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-sage-600 focus-visible:ring-offset-2"
+            className="rounded-full bg-lavender-700 px-4 py-2 text-sm font-medium text-white lg:px-6 lg:py-2.5 lg:text-base hover:bg-lavender-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-lavender-600 focus-visible:ring-offset-2"
           >
             Book now
           </a>
@@ -47,7 +55,7 @@ export default function Home() {
     <div className="mt-8 flex flex-wrap justify-center gap-3">
       <a
         href={site.bookingUrl}
-        className="rounded-full bg-white px-6 py-3 font-medium text-sage-900 hover:bg-sand-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-sage-900"
+        className="rounded-full bg-gold-300 px-6 py-3 font-medium text-lavender-900 hover:bg-gold-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-lavender-900"
       >
         Book a session
       </a>
@@ -65,12 +73,12 @@ export default function Home() {
           <h2 className="font-serif text-3xl font-semibold">Services</h2>
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {site.services.map((s) => (
-              <article key={s.name} className="rounded-xl border border-sand-200 bg-white p-6 shadow-sm">
+              <article key={s.name} className="rounded-xl border border-gold-200 bg-white p-6 shadow-sm">
                 <h3 className="font-serif text-xl font-semibold">{s.name}</h3>
-                <p className="mt-2 text-sage-700">{s.description}</p>
+                <p className="mt-2 text-lavender-700">{s.description}</p>
                 <ul className="mt-4 space-y-1 text-sm">
                   {s.prices.map((p) => (
-                    <li key={p.length} className="flex justify-between border-t border-sand-100 pt-1">
+                    <li key={p.length} className="flex justify-between border-t border-gold-200 pt-1">
                       <span>{p.length}</span>
                       <span className="font-medium">{p.price}</span>
                     </li>
@@ -81,7 +89,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="about" className="bg-sand-100">
+        <section id="about" className="bg-lavender-100">
           <div className="mx-auto max-w-3xl px-4 py-16">
             <h2 className="font-serif text-3xl font-semibold">About {site.therapist}</h2>
             <div className="mt-6 space-y-4 text-lg leading-relaxed">
@@ -89,7 +97,7 @@ export default function Home() {
                 <p key={i}>{p}</p>
               ))}
             </div>
-            <p className="mt-6 text-sm text-sage-700">License: {site.licenseNumber}</p>
+            <p className="mt-6 text-sm text-lavender-700">License: {site.licenseNumber}</p>
           </div>
         </section>
 
@@ -102,13 +110,13 @@ export default function Home() {
                 {site.address.street}<br />
                 {site.address.city}, {site.address.state} {site.address.zip}
               </address>
-              <p className="mt-4 text-sage-700">{site.policies}</p>
+              <p className="mt-4 text-lavender-700">{site.policies}</p>
             </div>
             <div>
               <h3 className="font-semibold">Hours</h3>
               <ul className="mt-2 space-y-1">
                 {site.hours.map((h) => (
-                  <li key={h.days} className="flex justify-between gap-4 border-b border-sand-100 pb-1">
+                  <li key={h.days} className="flex justify-between gap-4 border-b border-gold-200 pb-1">
                     <span>{h.days}</span>
                     <span>{h.time}</span>
                   </li>
@@ -118,7 +126,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="contact" className="bg-sage-100">
+        <section id="contact" className="bg-gold-100">
           <div className="mx-auto max-w-3xl px-4 py-16">
             <h2 className="font-serif text-3xl font-semibold">Get in touch</h2>
             <p className="mt-3">
@@ -132,7 +140,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="border-t border-sand-200 py-8 text-center text-sm text-sage-700">
+      <footer className="bg-lavender-400 py-8 text-center text-sm text-lavender-900">
         <p>&copy; {new Date().getFullYear()} {site.name}. All rights reserved.</p>
       </footer>
     </>

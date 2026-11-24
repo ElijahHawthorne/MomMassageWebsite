@@ -4,4 +4,4 @@
 
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
-body { @apply bg-sand-50 text-sage-900 antialiased; }
+body { @apply bg-gold-50 text-lavender-900 antialiased; }

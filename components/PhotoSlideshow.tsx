@@ -30,7 +30,7 @@ export default function PhotoSlideshow({
         />
       ))}
       {/* dark overlay keeps the text readable on every image */}
-      <div className="absolute inset-0 bg-sage-900/50" />
+      <div className="absolute inset-0 bg-lavender-900/50" />
     </div>
   );
 }

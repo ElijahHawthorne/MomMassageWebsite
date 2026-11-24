@@ -28,7 +28,7 @@ export default function ContactForm() {
   }
 
   const field =
-    'mt-1 w-full rounded-md border border-sage-200 bg-white px-3 py-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-sage-600';
+    'mt-1 w-full rounded-md border border-lavender-200 bg-white px-3 py-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-lavender-600';
 
   return (
     <form onSubmit={onSubmit} className="space-y-4" aria-describedby="form-status">
@@ -47,7 +47,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === 'sending'}
-        className="rounded-full bg-sage-700 px-6 py-2.5 font-medium text-white hover:bg-sage-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-sage-600 focus-visible:ring-offset-2 disabled:opacity-60"
+        className="rounded-full bg-lavender-700 px-6 py-2.5 font-medium text-white hover:bg-lavender-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-lavender-600 focus-visible:ring-offset-2 disabled:opacity-60"
       >
         {status === 'sending' ? 'Sending...' : 'Send message'}
       </button>
