@@ -1,0 +1,49 @@
+{
+  "name": "A Moment of Peace",
+  "tagline": "Therapeutic massage to relax, restore and recover.",
+  "therapist": "Lia Hawthorne",
+  "licenseNumber": "MA00000",
+  "phone": "(689) 247-0154",
+  "email": "amomentofpeacespa@yahoo.com",
+  "bookingUrl": "https://amomentofpeace.noterro.com",
+  "address": {
+    "street": "4720 International Pkwy",
+    "city": "Sanford",
+    "state": "FL",
+    "zip": "32771"
+  },
+  "serviceArea": "Serving Sanford, Lake Mary and the greater Orlando area.",
+  "hours": [
+    { "days": "Monday to Friday", "time": "Coming Soon" },
+    { "days": "Saturday", "time": "Coming Soon" },
+    { "days": "Sunday", "time": "Coming Soon" }
+  ],
+  "services": [
+    {
+      "name": "Swedish Massage",
+      "description": "Gentle, flowing strokes to ease tension and promote relaxation.",
+      "prices": [
+        { "length": "60 min", "price": "$80" },
+        { "length": "90 min", "price": "$115" }
+      ]
+    },
+    {
+      "name": "Deep Tissue Massage",
+      "description": "Firm pressure that targets chronic tightness and sore muscles.",
+      "prices": [
+        { "length": "60 min", "price": "$95" },
+        { "length": "90 min", "price": "$135" }
+      ]
+    },
+    {
+      "name": "Prenatal Massage",
+      "description": "Supportive, comfortable care for expecting mothers.",
+      "prices": [{ "length": "60 min", "price": "$90" }]
+    }
+  ],
+  "about": [
+    "Share a short, warm introduction here: who you are, how long you have practiced, and what a visit feels like.",
+    "Mention your training, your approach, and who you like to work with, such as athletes, desk workers or people with chronic pain."
+  ],
+  "policies": "Please arrive 5 minutes early. 24 hours notice is appreciated for cancellations."
+}
